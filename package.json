@@ -32,6 +32,9 @@
       ],
       "deserialize": [
         "./dist/deserialize/index.d.ts"
+      ],
+      "serialize": [
+        "./dist/serialize/index.d.ts"
       ]
     }
   },
