@@ -1,0 +1,21 @@
+---
+interface Props {
+  serializer?: (data: any) => Promise<string> | string;
+  data: any;
+  id: string;
+}
+
+const { id, data, serializer = JSON.stringify } = Astro.props;
+
+let serializedData = "";
+
+try {
+  serializedData = await serializer(data);
+} catch (error) {
+  throw new Error(`[Serialize]: failed to serialize data`, {
+    cause: error,
+  });
+}
+---
+
+<script type="application/json" id={id} set:html={serializedData} />
