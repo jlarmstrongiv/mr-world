@@ -44,7 +44,7 @@
       "require": "./dist/integration/index.cjs",
       "import": "./dist/integration/index.js"
     },
-    "./serialize": "./src/serialize/index.ts",
+    "./serialize": "./dist/serialize/index.ts",
     "./deserialize": {
       "types": "./dist/deserialize/index.d.ts",
       "require": "./dist/deserialize/index.cjs",
@@ -53,8 +53,7 @@
     "./package.json": "./package.json"
   },
   "files": [
-    "dist",
-    "src/serialize"
+    "dist"
   ],
   "scripts": {
     "build": "tsup-node",

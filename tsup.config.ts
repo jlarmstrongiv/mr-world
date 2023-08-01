@@ -17,7 +17,7 @@ export default defineConfig(async (options) => {
     minifySyntax: !options.watch,
     minifyWhitespace: !options.watch,
     onSuccess:
-      "tsc --emitDeclarationOnly --declaration --declarationMap --declarationDir ./dist",
+      "tsc --emitDeclarationOnly --declaration --declarationMap --declarationDir ./dist && rsync -a ./src/ ./dist/ --ignore-existing",
     outDir: "dist",
     shims: true,
     silent: !options.watch,

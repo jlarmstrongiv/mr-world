@@ -14,6 +14,8 @@ jobs:
       - name: Checkout git repository 🛒
         uses: actions/checkout@v3
 
+      - uses: GuillaumeFalourd/setup-rsync@v1.1
+
       - name: Setup Node ⚙️
         uses: actions/setup-node@v3
         with:
