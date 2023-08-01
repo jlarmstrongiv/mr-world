@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/jlarmstrongiv/mr-world#readme" target="_blank">
-    <img alt="mr-world" src="https://raw.githubusercontent.com/jlarmstrongiv/mr-world/HEAD/logos/mr-world.png" width="400" height="225" style="max-width: 100%; object-fit: cover;">
+    <img alt="mr-world" src="https://raw.githubusercontent.com/jlarmstrongiv/mr-world/HEAD/logos/mr-world.jpg" width="400" height="225" style="max-width: 100%; object-fit: cover;">
   </a>
 </p>
 
