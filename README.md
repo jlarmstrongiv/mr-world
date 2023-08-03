@@ -108,7 +108,7 @@ You can pass a custom serializer as props or a custom deserializer in parameters
 - [typeson](https://www.npmjs.com/package/typeson)
 - [devalue](https://www.npmjs.com/package/devalue)
 
-By default, `JSON.stringify` and `JSON.parse` are used as serializes.
+By default, `JSON.stringify` and `JSON.parse` are used as serializers.
 
 ## License
 
