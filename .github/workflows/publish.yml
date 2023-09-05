@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout git repository 🛒
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - uses: GuillaumeFalourd/setup-rsync@v1.1
 
