@@ -19,8 +19,9 @@ jobs:
       - name: Setup Node ⚙️
         uses: actions/setup-node@v4
         with:
-          node-version: "18.16.0"
-          registry-url: "https://registry.npmjs.org"
+          node-version-file: ".tool-versions"
+          cache: npm
+          cache-dependency-path: "package-lock.json"
 
       - name: Install dependencies 🔧
         # include devDependencies https://stackoverflow.com/a/64648870
