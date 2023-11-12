@@ -56,7 +56,7 @@ export default defineConfig({
   site: "https://example.com",
   integrations: [
     mrWorld({
-      id: "DEFAULT_LOCALE"
+      id: "DEFAULT_LOCALE",
       useEffect: () => {
 
         // set global properties and functions
