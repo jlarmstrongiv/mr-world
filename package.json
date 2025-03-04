@@ -1,6 +1,6 @@
 {
   "name": "mr-world",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "private": false,
   "description": "The global variable integration for Astro 🌐",
   "keywords": [
@@ -61,7 +61,7 @@
     "watch": "tsup-node --watch"
   },
   "devDependencies": {
-    "@types/node": "^20.2.5",
+    "@types/node": "^22.0.0",
     "tsup": "^8.0.0",
     "typescript": "^5.1.3"
   },
